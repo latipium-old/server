@@ -17,6 +17,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <dependencies>
       <dependency id="log4net" version="2.0.5" />
+      <dependency id="Com.Latipium.Security" version="1.0" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" />
@@ -24,6 +25,6 @@
     <tags>Latipium Development Non-Mod</tags>
   </metadata>
   <files>
-    <file src="bin/{{ configuration }}/Com.Latipium.Server.dll" target="lib/net45" />
+    <file src="bin/{{ configuration }}/Com.Latipium.Server.exe" target="bin" />
   </files>
 </package>
